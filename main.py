@@ -24,7 +24,7 @@ def sendMail(title, content):
     mail_user="*********"    #用户名
     mail_pass="*********"   #口令 
 
-    sender = '**********'
+    sender = '**********'      # 发送邮箱
     receivers = '***********'  # 接收邮箱
     
     message = MIMEText(content, 'html', 'utf-8')
